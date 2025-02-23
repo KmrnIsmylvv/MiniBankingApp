@@ -15,11 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Transactions.Domain\Transactions.Domain.csproj" />
+    <Folder Include="Services\Infrastructure\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\Infrastructure\" />
+    <ProjectReference Include="..\..\..\..\Shared\Shared\Shared.csproj" />
+    <ProjectReference Include="..\Transactions.Domain\Transactions.Domain.csproj" />
   </ItemGroup>
 
 </Project>

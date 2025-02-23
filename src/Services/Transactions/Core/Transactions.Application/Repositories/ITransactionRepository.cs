@@ -1,5 +1,4 @@
-﻿
-using Transactions.Domain.Entities;
+﻿using Transactions.Domain.Entities;
 
 namespace Transactions.Application.Repositories;
 
